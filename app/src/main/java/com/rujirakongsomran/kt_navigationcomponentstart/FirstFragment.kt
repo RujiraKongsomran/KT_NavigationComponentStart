@@ -24,7 +24,8 @@ class FirstFragment : Fragment() {
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         val view = binding.root
         binding.textView2.setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_firstFragment_to_secondFragment)
+            val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(22)
+            Navigation.findNavController(view).navigate(action)
         }
         return view
 
