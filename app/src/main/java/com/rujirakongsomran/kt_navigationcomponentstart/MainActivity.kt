@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
                     supportActionBar?.setBackgroundDrawable(ColorDrawable(getColor(R.color.purple_700)))
                 } else if (destination.id == R.id.secondFragment) {
                     supportActionBar?.setBackgroundDrawable(ColorDrawable(getColor(R.color.purple_200)))
+                } else if (destination.id == R.id.thirdFragment) {
+                    supportActionBar?.setBackgroundDrawable(ColorDrawable(getColor(R.color.teal_200)))
                 }
             }
     }
