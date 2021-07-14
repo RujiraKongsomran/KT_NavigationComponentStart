@@ -31,4 +31,9 @@
             app:argType="integer"
             android:defaultValue="2" />
     </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.rujirakongsomran.kt_navigationcomponentstart.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" />
 </navigation>
